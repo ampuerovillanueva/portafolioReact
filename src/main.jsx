@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
+import { ThemeProvider } from './common/ThemeContext.jsx';
 
-function App() {
-
-    return (<h1>Hola al Mundo de Jose</h1>);
-}
-
-ReactDOM.createRoot( document.getElementById('root') ).render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+  </React.StrictMode>
 );

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Landing Page ONG",
+    "image": "/assets/ong.png",
+    "description": "Una landing page para una ONG.",
+    "repository": "https://github.com/ampuerovillanueva/landing-pageOng"
+  },
+  {
+    "title": "Landing Page Viaje",
+    "image": "/assets/viaje.png",
+    "description": "Una landing page para una agencia de viajes.",
+    "repository": "https://github.com/ampuerovillanueva/landingpage-Agencia"
+  },
+  {
+    "title": "App de Tareas",
+    "image": "/assets/tareas.png",
+    "description": "Una aplicación para gestionar tareas diarias.",
+    "repository": "https://github.com/ampuerovillanueva/appTareas"
+  },
+  {
+    "title": "App del Clima",
+    "image": "/assets/clima.png",
+    "description": "Una aplicación para consultar el clima.",
+    "repository": "https://github.com/ampuerovillanueva/appClima"
+  }
+]

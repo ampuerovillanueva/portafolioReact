@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .sectionTitle {
+    margin-bottom: 20px;
+  }
+  
+  .experienceItem {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 80%;
+    border-left: 2px solid var(--text-color);
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .experienceItem::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    top: 0;
+  }
+  
+  .date {
+    flex: 0 0 100px;
+    text-align: center;
+  }
+  
+  .details {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .details h2 {
+    margin: 0;
+  }
+  
+  .details h3 {
+    margin: 5px 0;
+    font-weight: normal;
+    color: var(--secondary-text-color);
+  }
+  
+  .details p {
+    margin: 10px 0 0;
+  }
+  

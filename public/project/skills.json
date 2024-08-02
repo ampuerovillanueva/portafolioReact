@@ -1,0 +1,41 @@
+[
+    {
+      "category": "Frontend",
+      "skills": [
+        {
+          "name": "HTML",
+          "icon": "/assets/html.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/assets/css.png"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "/assets/js.png"
+        },
+        {
+          "name": "React",
+          "icon": "/assets/react.png"
+        }
+      ]
+    },
+    {
+      "category": "Backend",
+      "skills": [
+        {
+          "name": "PHP",
+          "icon": "/assets/php.png"
+        },
+        {
+          "name": "C#",
+          "icon": "/assets/c-sharp.png"
+        },
+        {
+          "name": "Java",
+          "icon": "/assets/java.png"
+        }
+      ]
+    }
+  ]
+  

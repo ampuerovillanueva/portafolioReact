@@ -48,7 +48,7 @@
   .details h3 {
     margin: 5px 0;
     font-weight: normal;
-    color: var(--secondary-text-color);
+    color: var(--text-color);
   }
   
   .details p {

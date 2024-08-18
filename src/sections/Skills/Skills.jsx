@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './SkillsStyles.module.css';
+import 'aos/dist/aos.css'; // Importa los estilos de AOS
 import { useTheme } from '../../common/ThemeContext';
 
 function Skills() {
@@ -24,12 +25,12 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Habilidades</h1>
       {skillsData.map((category, index) => (
-        <div key={index}>
+        <div key={index} data-aos="fade-down">
           <h2>{category.category}</h2>
-          <div className={styles.skillList}>
+          <div className={styles.skillList} data-aos="fade-down">
             {category.skills.map((skill, skillIndex) => (
-              <div key={skillIndex} className={styles.skillItem}>
-                <img src={skill.icon} alt={skill.name} className={styles.icon} />
+              <div key={skillIndex} className={styles.skillItem} >
+                <img src={skill.icon} alt={skill.name} className={styles.icon} data-aos="fade-down"/>
                 <p>{skill.name}</p>
               </div>
             ))}
